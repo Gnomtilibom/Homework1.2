@@ -8,7 +8,7 @@ public class HomeWork {
         long innNumber = 912923012930192L;
         float answerAfterDo = 0.302120120f;
         double money = 221_819.99;
-        char mark = 33;
+        char mark = '3';
         boolean isHaveMoney = money > 100000;
 
         //Exercise 2
