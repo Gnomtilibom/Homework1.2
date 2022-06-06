@@ -67,13 +67,17 @@ public class HomeWork {
         double denisesIncrease = denis * 0.1;
         double kristinasIncrease = kristina * 0.1;
 
+        double mashasIncreaseYear = mashasIncrease * 12;
+        double denisesIncreaseYear = denisesIncrease *12;
+        double kristinasIncreaseYear = kristinasIncrease *12;
+
         double newMasha = masha + mashasIncrease;
         double newDenis = denis + denisesIncrease;
         double newKristina = kristina + kristinasIncrease;
 
-        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + mashasIncrease + " рублей.");
-        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + denisesIncrease + " рублей.");
-        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + kristinasIncrease + " рублей.");
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + mashasIncreaseYear + " рублей.");
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + denisesIncreaseYear + " рублей.");
+        System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + kristinasIncreaseYear + " рублей.");
 
     }
 }
