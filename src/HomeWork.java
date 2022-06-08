@@ -79,6 +79,5 @@ public class HomeWork {
         System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + denisesIncreaseYear + " рублей.");
         System.out.println("Кристина теперь получает " + newKristina + " рублей. Годовой доход вырос на " + kristinasIncreaseYear + " рублей.");
 
-
     }
 }
